@@ -1,4 +1,4 @@
-package edu.kit.ipd.parse.cycleWD.testagents;
+package edu.kit.ipd.pronat.cycle_watchdog.testagents;
 
 import edu.kit.ipd.parse.luna.agent.AbstractAgent;
 import edu.kit.ipd.parse.luna.graph.INode;

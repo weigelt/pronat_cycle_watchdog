@@ -1,17 +1,13 @@
-package edu.kit.ipd.parse.cycleWD;
+package edu.kit.ipd.pronat.cycle_watchdog;
 
-import edu.kit.ipd.parse.cycleWD.testagents.NodeAddAgent;
-import edu.kit.ipd.parse.cycleWD.testagents.NodeRemoveAgent;
+import edu.kit.ipd.pronat.cycle_watchdog.testagents.NodeAddAgent;
+import edu.kit.ipd.pronat.cycle_watchdog.testagents.NodeRemoveAgent;
 import edu.kit.ipd.parse.luna.ILuna;
 import edu.kit.ipd.parse.luna.Luna;
-import edu.kit.ipd.parse.luna.agent.AbstractAgent;
 import edu.kit.ipd.parse.luna.event.AbortEvent;
-import edu.kit.ipd.parse.luna.graph.IGraph;
-import edu.kit.ipd.parse.luna.graph.ParseGraph;
 import edu.kit.ipd.parse.luna.tools.ConfigManager;
 import org.junit.After;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.util.Properties;
